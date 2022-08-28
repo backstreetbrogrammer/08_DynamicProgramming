@@ -1,4 +1,4 @@
-package com.backstreetbrogrammer.dynamic.top20;
+package com.backstreetbrogrammer.dynamic;
 
 import java.util.Arrays;
 

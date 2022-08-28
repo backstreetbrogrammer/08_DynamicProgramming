@@ -6,7 +6,7 @@ For example, if we write simple recursive solution for Fibonacci Numbers, we get
 
 Through this series of tutorials, we will solve most popular dynamic programming problems using the most intuitive way possible.
 
-### Top 20 problems
+### Popular problems
 1. Longest Common Subsequence
    : Given two sequences, find the length of the longest subsequence present in both of them. A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous. 
 
@@ -64,7 +64,13 @@ The array can be partitioned as {1, 5, 5} and {11}
 
    
 9. Coin change problem
-   : Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces. For example, if the length of the rod is 8 and the values of different pieces are given as the following, then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6) 
+   : Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
+
+Examples:
+
+Input: sum = 4, coins[] = {1,2,3},
+Output: 4
+Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
 
 10. Word Break Problem

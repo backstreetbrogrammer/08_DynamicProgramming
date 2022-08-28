@@ -1,4 +1,4 @@
-package com.backstreetbrogrammer.dynamic.top20;
+package com.backstreetbrogrammer.dynamic;
 
 /**
  * https://leetcode.com/problems/longest-common-subsequence/
