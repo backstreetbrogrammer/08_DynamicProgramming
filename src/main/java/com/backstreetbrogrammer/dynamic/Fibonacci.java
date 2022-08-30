@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public class Fibonacci {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         for (int i = 20; i <= 50; i += 10) {
             final Instant start = Instant.now();
             System.out.printf("fibonacci(%d)=%d%n", i, fibonacciBottomUp(i));
@@ -26,7 +26,7 @@ public class Fibonacci {
         return fibonacciTopDownHelper(n, new long[n + 1]);
     }
 
-    private static long fibonacciTopDownHelper(int n, long[] memo) {
+    private static long fibonacciTopDownHelper(final int n, final long[] memo) {
         if (n < 2) return n;
         if (memo[n] == 0) {
             memo[n] = fibonacciTopDownHelper(n - 1, memo) + fibonacciTopDownHelper(n - 2, memo);
@@ -37,7 +37,7 @@ public class Fibonacci {
     // O(n)
     private static long fibonacciBottomUp(final int n) {
         if (n < 2) return n;
-        int[] dp = new int[n];
+        final long[] dp = new long[n];
         dp[0] = 0;
         dp[1] = 1;
         for (int i = 2; i < n; i++) {

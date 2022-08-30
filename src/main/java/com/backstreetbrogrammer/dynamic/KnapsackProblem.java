@@ -11,20 +11,20 @@ import java.util.Scanner;
  */
 public class KnapsackProblem {
 
-    public static void main(String[] args) {
-        try (Scanner s = new Scanner(System.in)) {
-            String[] firstInputLine = s.nextLine().split(" ");
-            int totalItems = Integer.parseInt(firstInputLine[0]);
-            int capacity = Integer.parseInt(firstInputLine[1]);
+    public static void main(final String[] args) {
+        try (final Scanner s = new Scanner(System.in)) {
+            final String[] firstInputLine = s.nextLine().split(" ");
+            final int totalItems = Integer.parseInt(firstInputLine[0]);
+            final int capacity = Integer.parseInt(firstInputLine[1]);
 
-            String[] secondInputLine = s.nextLine().split(" ");
-            int[] values = new int[totalItems];
+            final String[] secondInputLine = s.nextLine().split(" ");
+            final int[] values = new int[totalItems];
             for (int i = 0; i < totalItems; i++) {
                 values[i] = Integer.parseInt(secondInputLine[i]);
             }
 
-            String[] thirdInputLine = s.nextLine().split(" ");
-            int[] weights = new int[totalItems];
+            final String[] thirdInputLine = s.nextLine().split(" ");
+            final int[] weights = new int[totalItems];
             for (int i = 0; i < totalItems; i++) {
                 weights[i] = Integer.parseInt(thirdInputLine[i]);
             }
@@ -33,8 +33,8 @@ public class KnapsackProblem {
         }
     }
 
-    private static int knapSack(int capacity, int[] weights, int[] values, int totalItems) {
-        int[] dp = new int[capacity + 1];
+    private static int knapSack(final int capacity, final int[] weights, final int[] values, final int totalItems) {
+        final int[] dp = new int[capacity + 1];
         for (int i = 1; i < totalItems + 1; i++) {
             for (int j = capacity; j >= 0; j--) {
                 if (weights[i - 1] <= j) {
