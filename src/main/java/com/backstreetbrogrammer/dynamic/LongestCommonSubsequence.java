@@ -26,11 +26,14 @@ public class LongestCommonSubsequence {
         System.out.println(longestCommonSubsequence("abcde", "ace"));
     }
 
+    // O(row * col) ~ O(n^2)
     private static int longestCommonSubsequence(final String text1, final String text2) {
-        final int[][] dp = new int[text1.length() + 1][text2.length() + 1];
+        final int row = text1.length();
+        final int col = text2.length();
 
-        for (int i = text1.length() - 1; i >= 0; i--) {
-            for (int j = text2.length() - 1; j >= 0; j--) {
+        final int[][] dp = new int[row + 1][col + 1];
+        for (int i = row - 1; i >= 0; i--) {
+            for (int j = col - 1; j >= 0; j--) {
                 if (text1.charAt(i) == text2.charAt(j)) {
                     dp[i][j] = 1 + dp[i + 1][j + 1];
                 } else {
@@ -38,7 +41,6 @@ public class LongestCommonSubsequence {
                 }
             }
         }
-
         return dp[0][0];
     }
 
