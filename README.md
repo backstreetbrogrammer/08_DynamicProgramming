@@ -29,27 +29,26 @@ Explanation: Last three and first characters are same.  We basically need to con
    : Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
 
 
-5. Shortest Common Supersequence
-   : Given two strings str1 and str2, the task is to find the length of the shortest string that has both str1 and str2 as subsequences. 
+5. Coin change problem
+   : Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
 
-For example, 
-Input:   str1 = "geek",  str2 = "eke"
-Output: 5
-Explanation:
-String "geeke" has both string "geek" and "eke" as subsequences.
+Examples:
 
+Input: sum = 4, coins[] = {1,2,3},
+Output: 4
+Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
-6. Matrix Chain Multiplication
-   : Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] * arr[i]), the task is to find the most efficient way to multiply these matrices together such that the total number of element multiplications is minimum.
+6. Word Break Problem
+   : Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
 
-For example,
-Input: arr[] = {40, 20, 30, 10, 30}
-Output: 26000
-Explanation:There are 4 matrices of dimensions 40×20, 20×30, 30×10, 10×30.
-Let the input 4 matrices be A, B, C and D.
-The minimum number of  multiplications are obtained by
-putting parenthesis in following way (A(BC))D.
-The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
+Consider the following dictionary
+{ i, like, sam, sung, samsung, mobile, ice,
+cream, icecream, man, go, mango}
+
+Input:  ilike
+Output: Yes
+The string can be segmented as "i like".
+
 
 7. Partition problem
    : Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
@@ -63,26 +62,27 @@ The array can be partitioned as {1, 5, 5} and {11}
    : Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces. For example, if the length of the rod is 8 and the values of different pieces are given as the following, then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6)
 
    
-9. Coin change problem
-   : Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
+9. Shortest Common Supersequence
+   : Given two strings str1 and str2, the task is to find the length of the shortest string that has both str1 and str2 as subsequences.
 
-Examples:
+For example,
+Input:   str1 = "geek",  str2 = "eke"
+Output: 5
+Explanation:
+String "geeke" has both string "geek" and "eke" as subsequences.
 
-Input: sum = 4, coins[] = {1,2,3},
-Output: 4
-Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
+10. Matrix Chain Multiplication
+    : Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] * arr[i]), the task is to find the most efficient way to multiply these matrices together such that the total number of element multiplications is minimum.
 
-10. Word Break Problem
-   : Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
-
-Consider the following dictionary
-{ i, like, sam, sung, samsung, mobile, ice,
-cream, icecream, man, go, mango}
-
-Input:  ilike
-Output: Yes
-The string can be segmented as "i like".
+For example,
+Input: arr[] = {40, 20, 30, 10, 30}
+Output: 26000
+Explanation:There are 4 matrices of dimensions 40×20, 20×30, 30×10, 10×30.
+Let the input 4 matrices be A, B, C and D.
+The minimum number of  multiplications are obtained by
+putting parenthesis in following way (A(BC))D.
+The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 
 
 11. Boolean Parenthesization Problem
@@ -99,3 +99,13 @@ Operators
 ^   ---> boolean XOR
 Count the number of ways we can parenthesize the expression so that the value of expression evaluates to true.
 Let the input be in form of two arrays one contains the symbols (T and F) in order and the other contains operators (&, | and ^}
+
+12. Climbing Stairs
+    : You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+Example:
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
