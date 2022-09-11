@@ -25,6 +25,8 @@ public class ShortestCommonSupersequence {
         System.out.println(shortestCommonSupersequence("aggtab", "gxtxayb"));
     }
 
+    // O(m*n)
+    // O(m*n)
     private static String shortestCommonSupersequence(final String str1, final String str2) {
         final int row = str1.length();
         final int col = str2.length();

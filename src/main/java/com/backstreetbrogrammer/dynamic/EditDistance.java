@@ -27,6 +27,8 @@ public class EditDistance {
         System.out.println(minDistance("intention", "execution"));
     }
 
+    // O(m*n)
+    // O(m*n)
     private static int minDistance(final String word1, final String word2) {
         final int m = word1.length();
         final int n = word2.length();
