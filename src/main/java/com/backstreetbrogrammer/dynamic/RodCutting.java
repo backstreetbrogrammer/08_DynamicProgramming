@@ -1,5 +1,7 @@
 package com.backstreetbrogrammer.dynamic;
 
+import java.util.Scanner;
+
 /**
  * https://www.codingninjas.com/codestudio/problems/rod-cutting-problem_800284
  * <p>
@@ -16,7 +18,33 @@ package com.backstreetbrogrammer.dynamic;
 public class RodCutting {
 
     public static void main(String[] args) {
-        System.out.println(cutRod(new int[]{1, 5, 8, 9, 10, 17, 17, 20}, 8));
+        // System.out.println(cutRod(new int[]{1, 5, 8, 9, 10, 17, 17, 20}, 8));
+
+        // coding ninja
+        try (final Scanner s = new Scanner(System.in)) {
+            final int T = Integer.parseInt(s.nextLine());
+            for (int i = 0; i < T; i++) {
+                final int N = Integer.parseInt(s.nextLine());
+                final String[] priceInputLine = s.nextLine().split(" ");
+                final int[] price = new int[priceInputLine.length];
+                for (int j = 0; j < priceInputLine.length; j++) {
+                    price[j] = Integer.parseInt(priceInputLine[j]);
+                }
+                System.out.println(cutRod(price, N));
+            }
+        }
+
+        // Sample Input 1:
+        // 2
+        // 5
+        // 2 5 7 8 10
+        // 8
+        // 3 5 8 9 10 17 17 20
+
+        // Sample Input 2:
+        // 1
+        // 6
+        // 3 5 6 7 10 12
     }
 
     private static int cutRod(final int price[], final int n) {
