@@ -142,7 +142,7 @@ Count the number of ways we can parenthesize the expression so that the value of
 Let the input be in form of two arrays one contains the symbols (T and F) in order and the other contains operators (&, | and ^}
 
 ### 12. Partition problem
-Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
+Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is same.
 
 For example,
 arr[] = {1, 5, 11, 5}
