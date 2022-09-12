@@ -22,6 +22,8 @@ public class ClimbingStairs {
         System.out.println(climbStairs(5));
     }
 
+    // Time complexity: O(n)
+    // Space complexity: O(n)
     private static int climbStairs(final int n) {
         final int[] dp = new int[n + 1];
         dp[n] = 1;

@@ -27,8 +27,8 @@ public class EditDistance {
         System.out.println(minDistance("intention", "execution"));
     }
 
-    // O(m*n)
-    // O(m*n)
+    // Time complexity: O(word1.length * word2.length) ~ O(n^2)
+    // Space complexity: O(word1.length * word2.length) ~ O(n^2)
     private static int minDistance(final String word1, final String word2) {
         final int m = word1.length();
         final int n = word2.length();
