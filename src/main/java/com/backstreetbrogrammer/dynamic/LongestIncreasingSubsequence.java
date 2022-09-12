@@ -22,6 +22,8 @@ public class LongestIncreasingSubsequence {
         System.out.println(lengthOfLIS(new int[]{10, 9, 2, 5, 3, 7, 101, 18}));
     }
 
+    // Time complexity: O(n^2)
+    // Space complexity: O(n)
     private static int lengthOfLIS(final int[] nums) {
         final int[] dp = new int[nums.length];
         Arrays.fill(dp, 1);

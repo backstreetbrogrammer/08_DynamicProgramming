@@ -26,7 +26,8 @@ public class LongestCommonSubsequence {
         System.out.println(longestCommonSubsequence("abcde", "ace"));
     }
 
-    // O(row * col) ~ O(n^2)
+    // Time complexity: O(text1.length * text2.length) ~ O(n^2)
+    // Space complexity: O(text1.length * text2.length) ~ O(n^2)
     private static int longestCommonSubsequence(final String text1, final String text2) {
         final int row = text1.length();
         final int col = text2.length();
