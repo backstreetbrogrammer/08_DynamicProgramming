@@ -87,16 +87,24 @@ Explanation: There are two ways to climb to the top.
 - [27 - Climbing Stairs - Final DP solution in Java](https://www.youtube.com/watch?v=-2mGXCrKNAg)
 
 ### 6. Rod Cutting
-Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces. For example, if the length of the rod is 8 and the values of different pieces are given as the following, then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6)
+Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces. 
 
-### 7. Coin change problem
-Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
+For example, if the length of the rod is 8 and the values of different pieces are given as the following, then the maximum obtainable value is 22 (by cutting in two pieces of lengths 2 and 6)
 
-Examples:
+length   | 1   2   3   4   5   6   7   8
 
-Input: sum = 4, coins[] = {1,2,3},
-Output: 4
-Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
+price    | 1   5   8   9  10  17  17  20
+
+#### Youtube
+- [28 - Rod Cutting - Definition](https://www.youtube.com/watch?v=oW58btF_lSg)
+- [29 - Rod Cutting - Dynamic Programming approach](https://www.youtube.com/watch?v=IxlaYtY9s5M)
+- [30 - Rod Cutting - Final DP solution in Java](https://www.youtube.com/watch?v=JKY6tePuh9A)
+
+### 7. 0-1 Knapsack Problem
+Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+
+#### Youtube
+- [31 - Knapsack Problem - Definition](https://www.youtube.com/watch?v=y2rbW-tCrQA)
 
 ### 8. Word Break Problem
 Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
@@ -109,8 +117,14 @@ Input:  ilike
 Output: Yes
 The string can be segmented as "i like".
    
-### 9. 0-1 Knapsack Problem
-Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+### 9. Coin change problem
+Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
+
+Examples:
+
+Input: sum = 4, coins[] = {1,2,3},
+Output: 4
+Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
 
 ### 10. Matrix Chain Multiplication

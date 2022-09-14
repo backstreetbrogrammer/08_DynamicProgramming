@@ -17,10 +17,20 @@ import java.util.Scanner;
  */
 public class RodCutting {
 
+
+    // Sample Input 1:
+    // 2
+    // 5
+    // 2 5 7 8 10
+    // 8
+    // 3 5 8 9 10 17 17 20
+
+    // Sample Input 2:
+    // 1
+    // 6
+    // 3 5 6 7 10 12
     public static void main(String[] args) {
         // System.out.println(cutRod(new int[]{1, 5, 8, 9, 10, 17, 17, 20}, 8));
-
-        // coding ninja
         try (final Scanner s = new Scanner(System.in)) {
             final int T = Integer.parseInt(s.nextLine());
             for (int i = 0; i < T; i++) {
@@ -33,20 +43,10 @@ public class RodCutting {
                 System.out.println(cutRod(price, N));
             }
         }
-
-        // Sample Input 1:
-        // 2
-        // 5
-        // 2 5 7 8 10
-        // 8
-        // 3 5 8 9 10 17 17 20
-
-        // Sample Input 2:
-        // 1
-        // 6
-        // 3 5 6 7 10 12
     }
 
+    // Time complexity: O(n^2)
+    // Space complexity: O(n)
     private static int cutRod(final int price[], final int n) {
         final int[] dp = new int[n + 1];
 
