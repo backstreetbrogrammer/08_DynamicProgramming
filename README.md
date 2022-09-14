@@ -109,6 +109,9 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 
 #### Youtube
 - [31 - Knapsack Problem - Definition](https://www.youtube.com/watch?v=y2rbW-tCrQA)
+- [32 - Knapsack Problem - Dynamic Programming approach 1](https://www.youtube.com/watch?v=QUCCV6Nsf-4)
+- [33 - Knapsack Problem - Dynamic Programming approach 2](https://www.youtube.com/watch?v=wo_fw05O9OI)
+- [34 - Knapsack Problem - Final DP solution in Java](https://www.youtube.com/watch?v=gZX3mCCC3dc)
 
 ### 8. Word Break Problem
 Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
@@ -123,6 +126,9 @@ Input:  ilike
 Output: Yes
 
 The string can be segmented as "i like".
+
+#### Youtube
+- [35 - Word Break - Definition](https://www.youtube.com/watch?v=U-tprFcNO9A)
    
 ### 9. Coin change problem
 Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
