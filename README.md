@@ -101,7 +101,11 @@ price    | 1   5   8   9  10  17  17  20
 - [30 - Rod Cutting - Final DP solution in Java](https://www.youtube.com/watch?v=JKY6tePuh9A)
 
 ### 7. 0-1 Knapsack Problem
-Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
+Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. 
+
+Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. 
+
+You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
 
 #### Youtube
 - [31 - Knapsack Problem - Definition](https://www.youtube.com/watch?v=y2rbW-tCrQA)
@@ -110,11 +114,14 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
 
 Consider the following dictionary
+
 { i, like, sam, sung, samsung, mobile, ice,
 cream, icecream, man, go, mango}
 
 Input:  ilike
+
 Output: Yes
+
 The string can be segmented as "i like".
    
 ### 9. Coin change problem
@@ -123,11 +130,28 @@ Given a value sum, if we want to make change for sum cents, and we have an infin
 Examples:
 
 Input: sum = 4, coins[] = {1,2,3},
+
 Output: 4
+
 Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
 
-### 10. Matrix Chain Multiplication
+### 10. House Robber
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night.
+
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.
+
+Example:
+
+Input: nums = [1,2,3,1]
+
+Output: 4
+
+Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
+Total amount you can rob = 1 + 3 = 4.
+
+
+### 11. Matrix Chain Multiplication
 Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] * arr[i]), the task is to find the most efficient way to multiply these matrices together such that the total number of element multiplications is minimum.
 
 For example,
@@ -140,7 +164,7 @@ putting parenthesis in following way (A(BC))D.
 The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 
 
-### 11. Boolean Parenthesization Problem
+### 12. Boolean Parenthesization Problem
 Given a boolean expression with the following symbols.
 
 Symbols
@@ -155,7 +179,7 @@ Operators
 Count the number of ways we can parenthesize the expression so that the value of expression evaluates to true.
 Let the input be in form of two arrays one contains the symbols (T and F) in order and the other contains operators (&, | and ^}
 
-### 12. Partition problem
+### 13. Partition problem
 Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
 
 For example,
