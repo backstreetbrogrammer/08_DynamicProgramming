@@ -25,6 +25,8 @@ public class CoinChange {
         System.out.println(coinChange(new int[]{1, 2, 5}, 11));
     }
 
+    // Time complexity: O(amount * coins.length) ~ O(n^2)
+    // Space complexity: O(amount) ~ O(n)
     private static int coinChange(final int[] coins, final int amount) {
         final int[] dp = new int[amount + 1];
         Arrays.fill(dp, amount + 1);
