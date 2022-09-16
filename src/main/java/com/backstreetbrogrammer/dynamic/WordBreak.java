@@ -25,6 +25,8 @@ public class WordBreak {
         System.out.println(wordBreak("catsandog", Arrays.asList("cats", "dog", "sand", "and", "cat")));
     }
 
+    // Time complexity: O(s.length * wordDict.size()) ~ O(n^2)
+    // Space complexity: O(s.length) ~ O(n)
     private static boolean wordBreak(final String s, final List<String> wordDict) {
         final boolean[] dp = new boolean[s.length() + 1];
         dp[s.length()] = true;

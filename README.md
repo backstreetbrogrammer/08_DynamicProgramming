@@ -129,6 +129,8 @@ The string can be segmented as "i like".
 
 #### Youtube
 - [35 - Word Break - Definition](https://www.youtube.com/watch?v=U-tprFcNO9A)
+- [36 - Word Break - Dynamic Programming approach](https://www.youtube.com/watch?v=XDeSrT8y3t8)
+- [37 - Word Break - Final DP solution in Java](https://www.youtube.com/watch?v=1x6JnIIl318)
    
 ### 9. Coin change problem
 Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = { coins1, coins2, .. , coinsn} valued coins, how many ways can we make the change? The order of coins doesn’t matter.
