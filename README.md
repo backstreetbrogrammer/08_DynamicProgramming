@@ -15,6 +15,7 @@ Through this series of tutorials, we will solve most popular dynamic programming
 #### Leetcode
 [Introduction to DP - Fibonacci Numbers](https://leetcode.com/problems/fibonacci-number/)
 
+
 ## Most Popular Problems
 ### 1. Longest Common Subsequence
 Given two sequences, find the length of the longest subsequence present in both of them. A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous. 
@@ -85,6 +86,7 @@ Explanation: Last three and first characters are same.  We basically need to con
 #### Leetcode
 [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
 
+
 ### 5. Climbing Stairs
 You are climbing a staircase. It takes n steps to reach the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
@@ -103,6 +105,7 @@ Explanation: There are two ways to climb to the top.
 
 #### Leetcode
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
 
 ### 6. Rod Cutting
 Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces. 
@@ -137,6 +140,7 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 
 #### Hacker Earth
 [0/1 KNAPSACK PROBLEM](https://www.hackerearth.com/problem/algorithm/01-knapsack-problem-5a88b815/)
+
 
 ### 8. Word Break Problem
 Given an input string and a dictionary of words, find out if the input string can be segmented into a space-separated sequence of dictionary words.
@@ -174,6 +178,9 @@ Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
 #### Youtube
 - [38 - Coin Change - Definition](https://www.youtube.com/watch?v=emu-XjbEcYk)
+- [39 - Coin Change - Dynamic Programming approach 1](https://www.youtube.com/watch?v=kUEyQpf-9z4)
+- [40 - Coin Change - Dynamic Programming approach 2](https://www.youtube.com/watch?v=WvQ6ZCxap3I)
+- [41 - Coin Change - Final DP solution in Java](https://www.youtube.com/watch?v=KCssoWz1__4)
 
 #### Leetcode
 [322. Coin Change](https://leetcode.com/problems/coin-change/)
@@ -193,39 +200,30 @@ Output: 4
 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 Total amount you can rob = 1 + 3 = 4.
 
+#### Youtube
+- [42 - House Robber - Definition](https://www.youtube.com/watch?v=08v6hxP1kQc)
 
-### 11. Matrix Chain Multiplication
-Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] * arr[i]), the task is to find the most efficient way to multiply these matrices together such that the total number of element multiplications is minimum.
-
-For example,
-Input: arr[] = {40, 20, 30, 10, 30}
-Output: 26000
-Explanation:There are 4 matrices of dimensions 40×20, 20×30, 30×10, 10×30.
-Let the input 4 matrices be A, B, C and D.
-The minimum number of  multiplications are obtained by
-putting parenthesis in following way (A(BC))D.
-The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
+#### Leetcode
+[198. House Robber](https://leetcode.com/problems/house-robber/)
 
 
-### 12. Boolean Parenthesization Problem
-Given a boolean expression with the following symbols.
+### 11. Maximum Product Subarray
+Given an integer array nums, find a contiguous non-empty subarray within the array that has the largest product, and return the product.
 
-Symbols
-'T' ---> true
-'F' ---> false
-And following operators filled between symbols
+The test cases are generated so that the answer will fit in a 32-bit integer.
 
-Operators
-&   ---> boolean AND
-|   ---> boolean OR
-^   ---> boolean XOR
-Count the number of ways we can parenthesize the expression so that the value of expression evaluates to true.
-Let the input be in form of two arrays one contains the symbols (T and F) in order and the other contains operators (&, | and ^}
+A subarray is a contiguous subsequence of the array.
 
-### 13. Partition problem
-Partition problem is to determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
+Example:
 
-For example,
-arr[] = {1, 5, 11, 5}
-Output: true
-The array can be partitioned as {1, 5, 5} and {11}
+Input: nums = [2,3,-2,4]
+
+Output: 6
+
+Explanation: [2,3] has the largest product 6. 
+
+#### Youtube
+
+#### Leetcode
+[152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+
