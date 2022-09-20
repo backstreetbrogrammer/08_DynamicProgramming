@@ -35,11 +35,6 @@ public class MaximumProductSubarray {
         int currMax = 1;
 
         for (final int num : nums) {
-            if (num == 0) {
-                currMin = 1;
-                currMax = 1;
-                continue;
-            }
             final int tmp = currMax * num;
             currMax = Math.max(num * currMax, Math.max(num * currMin, num));
             currMin = Math.min(tmp, Math.min(num * currMin, num));
