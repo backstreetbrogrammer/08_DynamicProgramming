@@ -286,6 +286,7 @@ Output: "bab"
 Explanation: "aba" is also a valid answer.
 
 #### Youtube
+
 - [50 - Longest Palindromic Substring - Definition](https://www.youtube.com/watch?v=c2rFA-u-EHo)
 - [51 - Longest Palindromic Substring - Basic approach](https://www.youtube.com/watch?v=1PPh3Lg_3Lc)
 - [52 - Longest Palindromic Substring - Dynamic Programming approach 1](https://www.youtube.com/watch?v=6giVKVwhj3M)
@@ -293,7 +294,26 @@ Explanation: "aba" is also a valid answer.
 - [54 - Longest Palindromic Substring - Final DP solution in Java](https://www.youtube.com/watch?v=MIVVbYP1-qs)
 - [55 - Longest Palindromic Substring - submission in leetcode](https://www.youtube.com/watch?v=pUofBwSe35g)
 
-
 #### Leetcode
 
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+#### 13. Partition Equal Subset Sum
+
+Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets
+such that the sum of elements in both subsets is equal.
+
+Example:
+
+Input: nums = [1,5,11,5]
+
+Output: true
+
+Explanation: The array can be partitioned as [1, 5, 5] and [11].
+
+#### Youtube
+[]()
+
+#### Leetcode
+
+[416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
