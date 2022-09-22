@@ -287,6 +287,11 @@ Explanation: "aba" is also a valid answer.
 
 #### Youtube
 - [50 - Longest Palindromic Substring - Definition](https://www.youtube.com/watch?v=c2rFA-u-EHo)
+- [51 - Longest Palindromic Substring - Basic approach](https://www.youtube.com/watch?v=1PPh3Lg_3Lc)
+- [52 - Longest Palindromic Substring - Dynamic Programming approach 1](https://www.youtube.com/watch?v=6giVKVwhj3M)
+- [53 - Longest Palindromic Substring - Dynamic Programming approach 2](https://www.youtube.com/watch?v=IMo2YdNpBGk)
+- [54 - Longest Palindromic Substring - Final DP solution in Java](https://www.youtube.com/watch?v=MIVVbYP1-qs)
+- [55 - Longest Palindromic Substring - submission in leetcode](https://www.youtube.com/watch?v=pUofBwSe35g)
 
 
 #### Leetcode

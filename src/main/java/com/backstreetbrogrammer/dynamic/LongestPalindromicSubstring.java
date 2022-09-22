@@ -19,6 +19,8 @@ public class LongestPalindromicSubstring {
         System.out.println(longestPalindrome("cbbd"));
     }
 
+    // Time complexity: O(n^2)
+    // Space complexity: O(1)
     private static String longestPalindrome(final String s) {
         if (s.length() == 1) return s;
 
@@ -27,7 +29,7 @@ public class LongestPalindromicSubstring {
             int len1 = expandAroundCenter(s, i, i); // odd length
             int len2 = expandAroundCenter(s, i, i + 1); // even length
             int len = Math.max(len1, len2);
-            if (len > end - start) {
+            if (len > (end - start)) {
                 start = i - (len - 1) / 2;
                 end = i + len / 2;
             }
