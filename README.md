@@ -312,7 +312,9 @@ Output: true
 Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 #### Youtube
-[]()
+- [56 - Partition Equal Subset Sum - Definition](https://www.youtube.com/watch?v=M0iqJa9T4GM)
+- [57 - Partition Equal Subset Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=_LUuZqRoabc)
+- [58 - Partition Equal Subset Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=vSvkbVy-Ls8)
 
 #### Leetcode
 
