@@ -312,10 +312,37 @@ Output: true
 Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 #### Youtube
+
 - [56 - Partition Equal Subset Sum - Definition](https://www.youtube.com/watch?v=M0iqJa9T4GM)
 - [57 - Partition Equal Subset Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=_LUuZqRoabc)
 - [58 - Partition Equal Subset Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=vSvkbVy-Ls8)
+- [59 - Partition Equal Subset Sum - Final DP solution in Java](https://www.youtube.com/watch?v=DBYYKY5emkQ)
 
 #### Leetcode
 
 [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+#### 14. Counting Bits
+
+Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's
+in the binary representation of i.
+
+Example:
+
+Input: n = 2
+
+Output: [0,1,1]
+
+Explanation:
+
+0 --> 0
+
+1 --> 1
+
+2 --> 10
+
+#### Youtube
+
+#### Leetcode
+
+[338. Counting Bits](https://leetcode.com/problems/counting-bits/)

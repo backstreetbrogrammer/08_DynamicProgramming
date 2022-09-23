@@ -11,6 +11,8 @@ public class PartitionEqualSubsetSum {
         System.out.println(canPartition(new int[]{1, 2, 3, 5}));
     }
 
+    // Time complexity:  O(n^2)
+    // Space complexity: O(sum(nums[])^2) ~ O(n^2)
     private static boolean canPartition(final int[] nums) {
         if (nums.length == 1) return false;
 
