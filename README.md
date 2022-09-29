@@ -271,7 +271,7 @@ Explanation: [2,3] has the largest product 6.
 
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
-#### 12. Longest Palindromic Substring
+### 12. Longest Palindromic Substring
 
 Given a string s, return the longest palindromic substring in s.
 
@@ -298,7 +298,7 @@ Explanation: "aba" is also a valid answer.
 
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
-#### 13. Partition Equal Subset Sum
+### 13. Partition Equal Subset Sum
 
 Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets
 such that the sum of elements in both subsets is equal.
@@ -322,7 +322,7 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 
-#### 14. Counting Bits
+### 14. Counting Bits
 
 Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's
 in the binary representation of i.
@@ -343,6 +343,37 @@ Explanation:
 
 #### Youtube
 
+- [60 - Counting Bits - Definition](https://www.youtube.com/watch?v=tEBzFyZ3nNE)
+- [61 - Counting Bits - Dynamic Programming approach 1](https://www.youtube.com/watch?v=Fh6KdpFuaVg)
+- [62 - Counting Bits - Dynamic Programming approach 2](https://www.youtube.com/watch?v=kophZUh023I)
+- [63 - Counting Bits - Final DP solution in Java](https://www.youtube.com/watch?v=Zc8L-tFTGrs)
+
 #### Leetcode
 
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
+
+### 15. Matrix Chain Multiplication
+
+Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] *
+arr[i]), the task is to find the most efficient way to multiply these matrices together such that the total number of
+element multiplications is minimum.
+
+Example:
+
+Input: arr[] = {40, 20, 30, 10, 30}
+
+Output: 26000
+
+Explanation:There are 4 matrices of dimensions 40×20, 20×30, 30×10, 10×30. Let the input 4 matrices be A, B, C and D.
+The minimum number of multiplications are obtained by putting parenthesis in following way (A(BC))D.
+
+The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
+
+#### Youtube
+
+- [64 - Matrix Chain Multiplication - Definition](https://www.youtube.com/watch?v=ky97ttodG80)
+
+#### Coding Ninjas
+
+[Matrix Chain Multiplication](https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344)
+
