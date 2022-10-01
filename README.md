@@ -371,9 +371,59 @@ The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 
 #### Youtube
 
-- [64 - Matrix Chain Multiplication - Definition](https://www.youtube.com/watch?v=ky97ttodG80)
+- [64 - Matrix Chain Multiplication - Definition 1](https://www.youtube.com/watch?v=vLWuOoWNhTM)
+- [65 - Matrix Chain Multiplication - Definition 2](https://www.youtube.com/watch?v=TWftlqo-sq8)
 
 #### Coding Ninjas
 
 [Matrix Chain Multiplication](https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344)
 
+### 16. Paint House
+
+There are a row of n houses, each house can be painted with one of the three colors: red, blue or green.
+
+The cost of painting each house with a certain color is different. You have to paint all the houses such that no two
+adjacent houses have the same color, and you need to cost the least. Return the minimum cost.
+
+The cost of painting each house with a certain color is represented by a n x 3 cost matrix.
+
+For example, costs[0][0] is the cost of painting house 0 with color red; costs[1][2] is the cost of painting house 1
+with color green, and so on...
+
+Find the minimum cost to paint all houses.
+
+Example:
+
+Input: [[14,2,11],[11,14,5],[14,3,10]]
+
+Output: 10
+
+Explanation:
+
+Paint house 0 into blue, paint house 1 into green, paint house 2 into blue.
+
+Minimum cost: 2 + 5 + 3 = 10.
+
+#### Youtube
+
+#### LintCode
+
+[515 · Paint House](https://www.lintcode.com/problem/515/)
+
+### 17. Pascal's Triangle
+
+Given an integer numRows, return the first numRows of Pascal's triangle.
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
+
+Example:
+
+Input: numRows = 5
+
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+
+#### Youtube
+
+#### Leetcode
+
+[118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
