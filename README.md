@@ -373,6 +373,11 @@ The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 
 - [64 - Matrix Chain Multiplication - Definition 1](https://www.youtube.com/watch?v=vLWuOoWNhTM)
 - [65 - Matrix Chain Multiplication - Definition 2](https://www.youtube.com/watch?v=TWftlqo-sq8)
+- [66 - Matrix Chain Multiplication - Dynamic Programming approach 1](https://www.youtube.com/watch?v=EJ9YX-DqPJ8)
+- [67 - Matrix Chain Multiplication - Dynamic Programming approach 2](https://www.youtube.com/watch?v=PTCW6MA3f3w)
+- [68 - Matrix Chain Multiplication - Dynamic Programming approach 3](https://www.youtube.com/watch?v=HIeXk1h1k88)
+- [69 - Matrix Chain Multiplication - Dynamic Programming approach 4](https://www.youtube.com/watch?v=fy7zpcWhS7E)
+- [70 - Matrix Chain Multiplication - Final DP solution in Java](https://www.youtube.com/watch?v=A-QQqE7trEQ)
 
 #### Coding Ninjas
 
@@ -427,3 +432,46 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 #### Leetcode
 
 [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+
+### 18. Decode Ways
+
+A message containing letters from A-Z can be encoded into numbers using the following mapping:
+
+'A' -> "1"
+
+'B' -> "2"
+
+...
+
+'Z' -> "26"
+
+To decode an encoded message, all the digits must be grouped then mapped back into letters using the reverse of the
+mapping above (there may be multiple ways).
+
+For example, "11106" can be mapped into:
+
+"AAJF" with the grouping (1 1 10 6)
+
+"KJF" with the grouping (11 10 6)
+
+Note that the grouping (1 11 06) is invalid because "06" cannot be mapped into 'F' since "6" is different from "06".
+
+Given a string s containing only digits, return the number of ways to decode it.
+
+The test cases are generated so that the answer fits in a 32-bit integer.
+
+Example :
+
+Input: s = "12"
+
+Output: 2
+
+Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
+
+#### Youtube
+
+#### Leetcode
+
+[91. Decode Ways](https://leetcode.com/problems/decode-ways/)
+
+
