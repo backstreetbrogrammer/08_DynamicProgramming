@@ -20,7 +20,7 @@ package com.backstreetbrogrammer.dynamic;
  */
 public class PaintHouse {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int[][] costs = {{14, 2, 11}, {11, 14, 5}, {14, 3, 10}};
         System.out.println(minCost(costs));
     }
@@ -31,9 +31,9 @@ public class PaintHouse {
         final int[] dp = new int[3];
 
         for (final int[] cost : costs) {
-            int dp0 = cost[0] + Math.min(dp[1], dp[2]);
-            int dp1 = cost[1] + Math.min(dp[0], dp[2]);
-            int dp2 = cost[2] + Math.min(dp[0], dp[1]);
+            final int dp0 = cost[0] + Math.min(dp[1], dp[2]);
+            final int dp1 = cost[1] + Math.min(dp[0], dp[2]);
+            final int dp2 = cost[2] + Math.min(dp[0], dp[1]);
 
             dp[0] = dp0;
             dp[1] = dp1;

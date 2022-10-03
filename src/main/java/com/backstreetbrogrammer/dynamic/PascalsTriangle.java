@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class PascalsTriangle {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final List<List<Integer>> pascalsTriangle = generate(5);
         pascalsTriangle.forEach(row -> {
             row.forEach(num -> System.out.printf("%d, ", num));

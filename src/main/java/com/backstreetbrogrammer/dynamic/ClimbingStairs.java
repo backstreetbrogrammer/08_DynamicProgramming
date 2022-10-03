@@ -18,7 +18,7 @@ package com.backstreetbrogrammer.dynamic;
  */
 public class ClimbingStairs {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(climbStairs(5));
     }
 

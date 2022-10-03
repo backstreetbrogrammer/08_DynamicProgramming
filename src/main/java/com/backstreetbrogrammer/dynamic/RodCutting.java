@@ -29,7 +29,7 @@ public class RodCutting {
     // 1
     // 6
     // 3 5 6 7 10 12
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // System.out.println(cutRod(new int[]{1, 5, 8, 9, 10, 17, 17, 20}, 8));
         try (final Scanner s = new Scanner(System.in)) {
             final int T = Integer.parseInt(s.nextLine());

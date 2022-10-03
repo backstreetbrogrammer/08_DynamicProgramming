@@ -20,7 +20,7 @@ package com.backstreetbrogrammer.dynamic;
  */
 public class ShortestCommonSupersequence {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(shortestCommonSupersequence("abac", "cab"));
         System.out.println(shortestCommonSupersequence("aggtab", "gxtxayb"));
     }

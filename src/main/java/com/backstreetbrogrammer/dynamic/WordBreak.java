@@ -19,7 +19,7 @@ import java.util.List;
  */
 public class WordBreak {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(wordBreak("leetcode", Arrays.asList("leet", "code")));
         System.out.println(wordBreak("applepenapple", Arrays.asList("apple", "pen")));
         System.out.println(wordBreak("catsandog", Arrays.asList("cats", "dog", "sand", "and", "cat")));

@@ -433,6 +433,10 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 
 #### Youtube
 
+- [74 - Pascals Triangle - Definition](https://www.youtube.com/watch?v=EcFaoxuFlQE)
+- [75 - Pascals Triangle - Dynamic Programming approach](https://www.youtube.com/watch?v=NWJpEr3T7pI)
+- [76 - Pascals Triangle - Final DP solution in Java](https://www.youtube.com/watch?v=8z1uAYGlItY)
+
 #### Leetcode
 
 [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)

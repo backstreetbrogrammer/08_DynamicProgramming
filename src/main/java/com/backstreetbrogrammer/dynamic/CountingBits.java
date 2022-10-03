@@ -18,7 +18,7 @@ import java.util.Arrays;
  */
 public class CountingBits {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         final int[] res1 = countBits(5);
         Arrays.stream(res1)
                 .forEach(num -> System.out.printf("%d, ", num));
