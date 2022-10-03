@@ -411,6 +411,10 @@ Minimum cost: 2 + 5 + 3 = 10.
 
 #### Youtube
 
+- [71 - Paint House - Definition](https://www.youtube.com/watch?v=78UlFsOmIz0)
+- [72 - Paint House - Dynamic Programming approach](https://www.youtube.com/watch?v=di5tYZnmiaQ)
+- [73 - Paint House - Final DP solution in Java](https://www.youtube.com/watch?v=aai_kEAdrJM)
+
 #### LintCode
 
 [515 · Paint House](https://www.lintcode.com/problem/515/)
