@@ -1,8 +1,5 @@
 package com.backstreetbrogrammer.dynamic;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * https://leetcode.com/problems/decode-ways/
  * <p>
@@ -27,21 +24,25 @@ import java.util.Map;
  * Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
  */
 public class DecodeWays {
+
     public static void main(final String[] args) {
         System.out.println(numDecodings("12"));
+        System.out.println(numDecodings("226"));
+        System.out.println(numDecodings("06"));
+        System.out.println(numDecodings("12106"));
     }
 
     // Time complexity: O(n)
     // Space complexity: O(n)
     private static int numDecodings(final String s) {
-        final Map<Integer, Integer> dp = new HashMap<>();
-        dp.put(s.length(), 1);
+        final int[] dp = new int[s.length() + 1];
+        dp[s.length()] = 1;
 
         for (int i = s.length() - 1; i >= 0; i--) {
             if (s.charAt(i) == '0') {
-                dp.put(i, 0);
+                dp[i] = 0;
             } else {
-                dp.put(i, dp.get(i + 1));
+                dp[i] = dp[i + 1];
             }
 
             if ((i + 1) < s.length() &&
@@ -53,11 +54,9 @@ public class DecodeWays {
                                     s.charAt(i + 1) == '4' ||
                                     s.charAt(i + 1) == '5' ||
                                     s.charAt(i + 1) == '6')))) {
-                final int dpI = dp.get(i);
-                final int dpIPlus2 = dp.get(i + 2);
-                dp.put(i, dpI + dpIPlus2);
+                dp[i] = dp[i] + dp[i + 2];
             }
         }
-        return dp.get(0);
+        return dp[0];
     }
 }
