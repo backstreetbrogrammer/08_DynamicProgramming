@@ -478,6 +478,8 @@ Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
 
 #### Youtube
 
+- [77 - Decode Ways - Definition](https://www.youtube.com/watch?v=8zg3FNR886Y)
+
 #### Leetcode
 
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
