@@ -47,13 +47,9 @@ public class DecodeWays {
 
             if ((i + 1) < s.length() &&
                     (s.charAt(i) == '1' ||
-                            (s.charAt(i) == '2' && (s.charAt(i + 1) == '0' ||
-                                    s.charAt(i + 1) == '1' ||
-                                    s.charAt(i + 1) == '2' ||
-                                    s.charAt(i + 1) == '3' ||
-                                    s.charAt(i + 1) == '4' ||
-                                    s.charAt(i + 1) == '5' ||
-                                    s.charAt(i + 1) == '6')))) {
+                            (s.charAt(i) == '2' && !((s.charAt(i + 1) == '7')
+                                    || (s.charAt(i + 1) == '8')
+                                    || (s.charAt(i + 1) == '9'))))) {
                 dp[i] = dp[i] + dp[i + 2];
             }
         }

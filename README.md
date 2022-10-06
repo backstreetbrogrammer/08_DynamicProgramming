@@ -479,6 +479,9 @@ Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
 #### Youtube
 
 - [77 - Decode Ways - Definition](https://www.youtube.com/watch?v=8zg3FNR886Y)
+- [78 - Decode Ways - Dynamic Programming approach 1](https://www.youtube.com/watch?v=pXVHRtkBUXo)
+- [79 - Decode Ways - Dynamic Programming approach 2](https://www.youtube.com/watch?v=EXNXx9Jh_O8)
+- [80 - Decode Ways - Final DP solution in Java](https://www.youtube.com/watch?v=5FzwVxoY51k)
 
 #### Leetcode
 
@@ -514,6 +517,28 @@ Down -> Right -> Down
 #### Leetcode
 
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
+
+### 20. Minimum Path Sum
+
+Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum
+of all numbers along its path.
+
+Note: You can only move either down or right at any point in time.
+
+Example:
+
+Input: grid = [[1,3,1],[1,5,1],[4,2,1]]
+
+Output: 7
+
+Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
+
+#### Youtube
+
+#### Leetcode
+
+[64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+
 
 
 
