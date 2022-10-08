@@ -514,6 +514,10 @@ Down -> Right -> Down
 
 #### Youtube
 
+- [81 - Unique Paths - Definition](https://www.youtube.com/watch?v=812tLxs3D7Y)
+- [82 - Unique Paths - Dynamic Programming approach](https://www.youtube.com/watch?v=fiIvyIdsoNQ)
+- [83 - Unique Paths - Final DP solution in Java](https://www.youtube.com/watch?v=yEuJDqmKzs8)
+
 #### Leetcode
 
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
@@ -539,7 +543,34 @@ Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
 
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
 
+### 21. Count Vowels Permutation
 
+Given an integer n, your task is to count how many strings of length n can be formed under the following rules:
 
+Each character is a lower case vowel ('a', 'e', 'i', 'o', 'u')
+
+Each vowel 'a' may only be followed by an 'e'.
+
+Each vowel 'e' may only be followed by an 'a' or an 'i'.
+
+Each vowel 'i' may not be followed by another 'i'.
+
+Each vowel 'o' may only be followed by an 'i' or a 'u'.
+
+Each vowel 'u' may only be followed by an 'a'.
+
+Example:
+
+Input: n = 2
+
+Output: 10
+
+Explanation: All possible strings are: "ae", "ea", "ei", "ia", "ie", "io", "iu", "oi", "ou" and "ua".
+
+#### Youtube
+
+#### Leetcode
+
+[1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)
 
 
