@@ -1,5 +1,7 @@
 package com.backstreetbrogrammer.dynamic;
 
+import java.util.Arrays;
+
 /**
  * https://leetcode.com/problems/minimum-path-sum/
  * <p>
@@ -16,10 +18,11 @@ public class MinimumPathSum {
     public static void main(final String[] args) {
         final int[][] grid = new int[][]{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
         System.out.println(minPathSum(grid));
+        System.out.println(minPathSumSpaceOptimised(grid));
     }
 
-    // Time complexity: O(n^2)
-    // Space complexity: O(n^2)
+    // Time complexity: O(m*n)
+    // Space complexity: O(m*n)
     private static int minPathSum(final int[][] grid) {
         final int rows = grid.length;
         final int cols = grid[0].length;
@@ -41,6 +44,27 @@ public class MinimumPathSum {
             }
         }
         return dp[0][0];
+    }
+
+    // Time complexity: O(m*n)
+    // Space complexity: O(n)
+    private static int minPathSumSpaceOptimised(final int[][] grid) {
+        final int rows = grid.length;
+        final int cols = grid[0].length;
+
+        int[] row = new int[cols + 1];
+        Arrays.fill(row, Integer.MAX_VALUE);
+        row[cols - 1] = 0; // base condition
+
+        for (int i = rows - 1; i >= 0; i--) {
+            final int[] nextRow = new int[cols + 1];
+            nextRow[cols] = Integer.MAX_VALUE;
+            for (int j = cols - 1; j >= 0; j--) {
+                nextRow[j] = grid[i][j] + Math.min(row[j], nextRow[j + 1]);
+            }
+            row = nextRow;
+        }
+        return row[0];
     }
 
 }

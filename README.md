@@ -539,6 +539,8 @@ Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
 
 #### Youtube
 
+- [84 - Minimum Path Sum - Definition](https://www.youtube.com/watch?v=wVvKY3aWpgQ)
+
 #### Leetcode
 
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
