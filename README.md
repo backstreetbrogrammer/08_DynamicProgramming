@@ -574,6 +574,11 @@ Explanation: All possible strings are: "ae", "ea", "ei", "ia", "ie", "io", "iu",
 
 #### Youtube
 
+- [88 - Count Vowels Permutation - Definition](https://www.youtube.com/watch?v=-5n2yUiEEOI)
+- [89 - Count Vowels Permutation - Dynamic Programming approach 1](https://www.youtube.com/watch?v=xfw9SS41rsU)
+- [90 - Count Vowels Permutation - Dynamic Programming approach 2](https://www.youtube.com/watch?v=QoQPuc-rhoU)
+- [91 - Count Vowels Permutation - Final DP solution in Java](https://www.youtube.com/watch?v=P8gKhxD8ZZQ)
+
 #### Leetcode
 
 [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)
