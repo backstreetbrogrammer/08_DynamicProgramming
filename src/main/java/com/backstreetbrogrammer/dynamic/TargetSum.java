@@ -46,8 +46,9 @@ public class TargetSum {
 
         final String key = index + "~" + total;
         if (!memo.containsKey(key)) {
-            final int value = findTargetSumWays(nums, target, index + 1, total + nums[index], memo)
-                    + findTargetSumWays(nums, target, index + 1, total - nums[index], memo);
+            final int value =
+                    findTargetSumWays(nums, target, index + 1, total + nums[index], memo)
+                            + findTargetSumWays(nums, target, index + 1, total - nums[index], memo);
             memo.put(key, value);
         }
         return memo.get(key);
