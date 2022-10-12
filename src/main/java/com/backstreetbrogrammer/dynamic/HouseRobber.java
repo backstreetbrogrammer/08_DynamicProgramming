@@ -23,7 +23,7 @@ public class HouseRobber {
 
     public static void main(final String[] args) {
         System.out.println(rob(new int[]{1, 2, 3, 1}));
-        System.out.println(rob(new int[]{2, 7, 9, 3, 1}));
+        System.out.println(robSpaceOptimized(new int[]{2, 7, 9, 3, 1}));
     }
 
     // Time complexity: O(n)
