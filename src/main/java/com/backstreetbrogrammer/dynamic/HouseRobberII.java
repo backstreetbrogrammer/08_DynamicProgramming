@@ -19,7 +19,7 @@ import java.util.Arrays;
  */
 public class HouseRobberII {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(rob(new int[]{2, 3, 2}));
         System.out.println(rob(new int[]{1, 2, 3, 1}));
     }

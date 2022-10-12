@@ -640,6 +640,11 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 #### Youtube
 
+- [96 - Jump Game - Definition](https://www.youtube.com/watch?v=x55Y-HBpwqA)
+- [97 - Jump Game - Dynamic Programming approach 1](https://www.youtube.com/watch?v=gsUjy-uRFqU)
+- [98 - Jump Game - Dynamic Programming approach 2](https://www.youtube.com/watch?v=UtHWdKjvpcU)
+- [99 - Jump Game - Final DP solution in Java](https://www.youtube.com/watch?v=ezAZFiGpMuE)
+
 #### Leetcode
 
 [55. Jump Game](https://leetcode.com/problems/jump-game/)
