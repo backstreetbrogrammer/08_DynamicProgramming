@@ -18,6 +18,8 @@ public class Fibonacci {
     public static void main(final String[] args) {
         for (int i = 20; i <= 50; i += 10) {
             final Instant start = Instant.now();
+            // System.out.printf("fibonacci(%d)=%d%n", i, fibonacci(i));
+            // System.out.printf("fibonacci(%d)=%d%n", i, fibonacciTopDown(i));
             System.out.printf("fibonacci(%d)=%d%n", i, fibonacciBottomUp(i));
             final long timeElapsed = Duration.between(start, Instant.now()).toMillis();
             System.out.printf("time taken: %d ms%n%n", timeElapsed);
@@ -55,6 +57,4 @@ public class Fibonacci {
         }
         return dp[n - 1] + dp[n - 2];
     }
-
-
 }
