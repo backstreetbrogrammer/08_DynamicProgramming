@@ -613,6 +613,11 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 #### Youtube
 
+- [92 - Target Sum - Definition](https://www.youtube.com/watch?v=oqBYqmJH2dk)
+- [93 - Target Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=IvSVRNC1bUM)
+- [94 - Target Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=MfenII6ys6c)
+- [95 - Target Sum - Final DP solution in Java](https://www.youtube.com/watch?v=3CAFxRPfJ_c)
+
 #### Leetcode
 
 [494. Target Sum](https://leetcode.com/problems/target-sum/)
@@ -638,3 +643,62 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 #### Leetcode
 
 [55. Jump Game](https://leetcode.com/problems/jump-game/)
+
+### 24. Jump Game II
+
+You are given a 0-indexed array of integers nums of length n. You are initially positioned at nums[0].
+
+Each element nums[i] represents the maximum length of a forward jump from index i. In other words, if you are at nums[i]
+, you can jump to any nums[i + j] where:
+
+0 <= j <= nums[i] and
+
+i + j < n
+
+Return the minimum number of jumps to reach nums[n - 1].
+
+The test cases are generated such that you can reach nums[n - 1].
+
+Example:
+
+Input: nums = [2,3,1,1,4]
+
+Output: 2
+
+Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 step from index 0 to 1, then 3 steps to
+the last index.
+
+#### Youtube
+
+#### Leetcode
+
+[45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
+
+### 25. House Robber II
+
+You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed.
+
+All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one.
+
+Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two
+adjacent houses were broken into on the same night.
+
+Given an integer array nums representing the amount of money of each house, return the maximum amount of money you can
+rob tonight without alerting the police.
+
+Example:
+
+Input: nums = [2,3,2]
+
+Output: 3
+
+Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2), because they are adjacent houses.
+
+#### Youtube
+
+#### Leetcode
+
+[213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
+
+
+

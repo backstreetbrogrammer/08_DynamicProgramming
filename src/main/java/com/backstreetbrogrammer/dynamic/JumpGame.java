@@ -15,7 +15,7 @@ package com.backstreetbrogrammer.dynamic;
  */
 public class JumpGame {
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         System.out.println(canJump(new int[]{2, 3, 1, 1, 4}));
         System.out.println(canJump(new int[]{3, 2, 1, 0, 4}));
     }

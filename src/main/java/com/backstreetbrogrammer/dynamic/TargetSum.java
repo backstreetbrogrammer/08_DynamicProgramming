@@ -30,6 +30,8 @@ public class TargetSum {
         System.out.println(findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
     }
 
+    // Time complexity: O(n)
+    // Space complexity: O(n)
     private static int findTargetSumWays(final int[] nums, final int target) {
         final Map<String, Integer> memo = new HashMap<>();
         return findTargetSumWays(nums, target, 0, 0, memo);
