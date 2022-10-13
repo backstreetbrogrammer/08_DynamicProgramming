@@ -675,6 +675,11 @@ the last index.
 
 #### Youtube
 
+- [100 - Jump Game II - Definition](https://www.youtube.com/watch?v=hNCldFgPQZI)
+- [101 - Jump Game II - Dynamic Programming approach 1](https://www.youtube.com/watch?v=tqgohXGKtaw)
+- [102 - Jump Game II - Dynamic Programming approach 2](https://www.youtube.com/watch?v=hbx69_QR860)
+- [103 - Jump Game II - Final DP solution in Java](https://www.youtube.com/watch?v=TJu3FrsRU6M)
+
 #### Leetcode
 
 [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
