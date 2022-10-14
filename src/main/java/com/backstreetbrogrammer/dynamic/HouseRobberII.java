@@ -24,8 +24,6 @@ public class HouseRobberII {
         System.out.println(rob(new int[]{1, 2, 3, 1}));
     }
 
-    // Time complexity: O(n^2)
-    // Space complexity: O(1)
     private static int rob(final int[] nums) {
         if (nums.length == 1) return nums[0];
 
@@ -33,6 +31,8 @@ public class HouseRobberII {
                 rob1(Arrays.copyOfRange(nums, 1, nums.length)));
     }
 
+    // Time complexity: O(n)
+    // Space complexity: O(1)
     private static int rob1(final int[] nums) {
         int house1 = 0;
         int house2 = 0;
@@ -44,5 +44,21 @@ public class HouseRobberII {
         }
 
         return house2;
+    }
+
+    // Time complexity: O(n)
+    // Space complexity: O(n)
+    private static int rob2(final int[] nums) {
+        if (nums.length == 1) return nums[0];
+
+        final int[] dp = new int[nums.length];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[1], dp[0]);
+
+        for (int i = 2; i < nums.length; i++) {
+            dp[i] = Math.max(nums[i] + dp[i - 2], dp[i - 1]);
+        }
+
+        return dp[nums.length - 1];
     }
 }

@@ -706,9 +706,17 @@ Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2)
 
 #### Youtube
 
+- [104 - House Robber II - Definition](https://www.youtube.com/watch?v=HGm0s5wm3OU)
+- [105 - House Robber II - Dynamic Programming approach 1](https://www.youtube.com/watch?v=8bTKewlp8P0)
+- [106 - House Robber II - Dynamic Programming approach 2](https://www.youtube.com/watch?v=FmDZfyjvIXo)
+- [107 - House Robber II - Final DP solution in Java](https://www.youtube.com/watch?v=GUt_SUSAz0E)
+
 #### Leetcode
 
 [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
+### Next Steps
+
+[Next Steps](https://www.youtube.com/watch?v=GLG-0SnL5rA)
 
 
