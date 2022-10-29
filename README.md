@@ -10,10 +10,10 @@ possible.
 
 #### Youtube
 
-- [01 - Dynamic Programming - Introduction](https://www.youtube.com/watch?v=Hnb6GDFBmQs)
-- [02 - Fibonacci Numbers - Recursive](https://www.youtube.com/watch?v=AYMjH6sSbeo)
-- [03 - Fibonacci Numbers - Dynamic Programming Top Down Memoization](https://www.youtube.com/watch?v=GVwkuS0PdTY)
-- [04 - Fibonacci Numbers - Dynamic Programming Bottom Up](https://www.youtube.com/watch?v=nw8tJ5eP5aI)
+- [01 - Dynamic Programming - Introduction](https://youtu.be/Hnb6GDFBmQs)
+- [02 - Fibonacci Numbers - Recursive](https://youtu.be/AYMjH6sSbeo)
+- [03 - Fibonacci Numbers - Dynamic Programming Top Down Memoization](https://youtu.be/GVwkuS0PdTY)
+- [04 - Fibonacci Numbers - Dynamic Programming Bottom Up](https://youtu.be/nw8tJ5eP5aI)
 
 #### Leetcode
 
