@@ -30,10 +30,10 @@ For example, “abc”, “abg”, “bdf”, “aeg”, ‘”acefg”, .. etc 
 
 #### Youtube
 
-- [05 - Longest Common Subsequence - Definition](https://www.youtube.com/watch?v=0z_uic-lge8)
-- [06 - Longest Common Subsequence - Recursive approach](https://www.youtube.com/watch?v=218NLh8rG5g)
-- [07 - Longest Common Subsequence - Dynamic Programming approach](https://www.youtube.com/watch?v=ZvLvrgwPs1s)
-- [08 - Longest Common Subsequence - Final DP solution in Java](https://www.youtube.com/watch?v=uH5x9cXl218)
+- [05 - Longest Common Subsequence - Definition](https://youtu.be/0z_uic-lge8)
+- [06 - Longest Common Subsequence - Recursive approach](https://youtu.be/218NLh8rG5g)
+- [07 - Longest Common Subsequence - Dynamic Programming approach](https://youtu.be/ZvLvrgwPs1s)
+- [08 - Longest Common Subsequence - Final DP solution in Java](https://youtu.be/uH5x9cXl218)
 
 #### Leetcode
 
