@@ -48,9 +48,9 @@ For example, the length of LIS for {10, 22, 9, 33, 21, 50, 41, 60, 80} is 6 and 
 
 #### Youtube
 
-- [09 - Longest Increasing Subsequence - Definition](https://www.youtube.com/watch?v=xinEAYkOy58)
-- [10 - Longest Increasing Subsequence - Dynamic Programming approach](https://www.youtube.com/watch?v=UmJRG6hMyT4)
-- [11 - Longest Increasing Subsequence - Final DP solution in Java](https://www.youtube.com/watch?v=yLQcNKVMF_8)
+- [09 - Longest Increasing Subsequence - Definition](https://youtu.be/xinEAYkOy58)
+- [10 - Longest Increasing Subsequence - Dynamic Programming approach](https://youtu.be/UmJRG6hMyT4)
+- [11 - Longest Increasing Subsequence - Final DP solution in Java](https://youtu.be/yLQcNKVMF_8)
 
 #### Leetcode
 
@@ -67,13 +67,13 @@ String "geeke" has both string "geek" and "eke" as subsequences.
 
 #### Youtube
 
-- [12 - Shortest Common Supersequence - Definition](https://www.youtube.com/watch?v=l3Asi2MGfAA)
-- [13 - Shortest Common Supersequence - Basic approach](https://www.youtube.com/watch?v=-De767mmtds)
-- [14 - Shortest Common Supersequence - LCS refresher](https://www.youtube.com/watch?v=cnbnFX7jZxc)
-- [15 - Shortest Common Supersequence - Dynamic Programming Approach 1](https://www.youtube.com/watch?v=cTscNRms3Lg)
-- [16 - Shortest Common Supersequence - Dynamic Programming Approach 2](https://www.youtube.com/watch?v=Cl5xDDNNEvA)
-- [17 - Shortest Common Supersequence - Final DP solution in Java](https://www.youtube.com/watch?v=tVSQ4E91lm4)
-- [18 - Shortest Common Supersequence - submit solution in Leetcode](https://www.youtube.com/watch?v=m7KtMCtoDpc)
+- [12 - Shortest Common Supersequence - Definition](https://youtu.be/l3Asi2MGfAA)
+- [13 - Shortest Common Supersequence - Basic approach](https://youtu.be/-De767mmtds)
+- [14 - Shortest Common Supersequence - LCS refresher](https://youtu.be/cnbnFX7jZxc)
+- [15 - Shortest Common Supersequence - Dynamic Programming Approach 1](https://youtu.be/cTscNRms3Lg)
+- [16 - Shortest Common Supersequence - Dynamic Programming Approach 2](https://youtu.be/Cl5xDDNNEvA)
+- [17 - Shortest Common Supersequence - Final DP solution in Java](https://youtu.be/tVSQ4E91lm4)
+- [18 - Shortest Common Supersequence - submit solution in Leetcode](https://youtu.be/m7KtMCtoDpc)
 
 #### Leetcode
 
@@ -90,11 +90,11 @@ insert t, insert a
 
 #### Youtube
 
-- [19 - Edit Distance - Definition](https://www.youtube.com/watch?v=AGmwuc_OTfQ)
-- [20 - Edit Distance - Basic approach 1](https://www.youtube.com/watch?v=LRdZ12vb9rE)
-- [21 - Edit Distance - Basic approach 2](https://www.youtube.com/watch?v=d6SSGL-_L4A)
-- [22 - Edit Distance - Dynamic Programming approach](https://www.youtube.com/watch?v=HNeApfHgc9Q)
-- [23 - Edit Distance - Final DP solution in Java](https://www.youtube.com/watch?v=MJATOeiiQaw)
+- [19 - Edit Distance - Definition](https://youtu.be/AGmwuc_OTfQ)
+- [20 - Edit Distance - Basic approach 1](https://youtu.be/LRdZ12vb9rE)
+- [21 - Edit Distance - Basic approach 2](https://youtu.be/d6SSGL-_L4A)
+- [22 - Edit Distance - Dynamic Programming approach](https://youtu.be/HNeApfHgc9Q)
+- [23 - Edit Distance - Final DP solution in Java](https://youtu.be/MJATOeiiQaw)
 
 #### Leetcode
 
@@ -113,10 +113,10 @@ Input: n = 2 Output: 2 Explanation: There are two ways to climb to the top.
 
 #### Youtube
 
-- [24 - Climbing Stairs - Definition](https://www.youtube.com/watch?v=m5TTbpx7n4M)
-- [25 - Climbing Stairs - Basic approach 1](https://www.youtube.com/watch?v=0rDi0wmT0os)
-- [26 - Climbing Stairs - Basic approach 2](https://www.youtube.com/watch?v=7SxNzY-1jMs)
-- [27 - Climbing Stairs - Final DP solution in Java](https://www.youtube.com/watch?v=-2mGXCrKNAg)
+- [24 - Climbing Stairs - Definition](https://youtu.be/m5TTbpx7n4M)
+- [25 - Climbing Stairs - Basic approach 1](https://youtu.be/0rDi0wmT0os)
+- [26 - Climbing Stairs - Basic approach 2](https://youtu.be/7SxNzY-1jMs)
+- [27 - Climbing Stairs - Final DP solution in Java](https://youtu.be/-2mGXCrKNAg)
 
 #### Leetcode
 
@@ -136,9 +136,9 @@ price | 1 5 8 9 10 17 17 20
 
 #### Youtube
 
-- [28 - Rod Cutting - Definition](https://www.youtube.com/watch?v=oW58btF_lSg)
-- [29 - Rod Cutting - Dynamic Programming approach](https://www.youtube.com/watch?v=IxlaYtY9s5M)
-- [30 - Rod Cutting - Final DP solution in Java](https://www.youtube.com/watch?v=JKY6tePuh9A)
+- [28 - Rod Cutting - Definition](https://youtu.be/oW58btF_lSg)
+- [29 - Rod Cutting - Dynamic Programming approach](https://youtu.be/IxlaYtY9s5M)
+- [30 - Rod Cutting - Final DP solution in Java](https://youtu.be/JKY6tePuh9A)
 
 #### Coding Ninjas
 
@@ -157,10 +157,10 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 
 #### Youtube
 
-- [31 - Knapsack Problem - Definition](https://www.youtube.com/watch?v=y2rbW-tCrQA)
-- [32 - Knapsack Problem - Dynamic Programming approach 1](https://www.youtube.com/watch?v=QUCCV6Nsf-4)
-- [33 - Knapsack Problem - Dynamic Programming approach 2](https://www.youtube.com/watch?v=wo_fw05O9OI)
-- [34 - Knapsack Problem - Final DP solution in Java](https://www.youtube.com/watch?v=gZX3mCCC3dc)
+- [31 - Knapsack Problem - Definition](https://youtu.be/y2rbW-tCrQA)
+- [32 - Knapsack Problem - Dynamic Programming approach 1](https://youtu.be/QUCCV6Nsf-4)
+- [33 - Knapsack Problem - Dynamic Programming approach 2](https://youtu.be/wo_fw05O9OI)
+- [34 - Knapsack Problem - Final DP solution in Java](https://youtu.be/gZX3mCCC3dc)
 
 #### Hacker Earth
 
@@ -183,9 +183,9 @@ The string can be segmented as "i like".
 
 #### Youtube
 
-- [35 - Word Break - Definition](https://www.youtube.com/watch?v=U-tprFcNO9A)
-- [36 - Word Break - Dynamic Programming approach](https://www.youtube.com/watch?v=XDeSrT8y3t8)
-- [37 - Word Break - Final DP solution in Java](https://www.youtube.com/watch?v=1x6JnIIl318)
+- [35 - Word Break - Definition](https://youtu.be/U-tprFcNO9A)
+- [36 - Word Break - Dynamic Programming approach](https://youtu.be/XDeSrT8y3t8)
+- [37 - Word Break - Final DP solution in Java](https://youtu.be/1x6JnIIl318)
 
 #### Leetcode
 
@@ -206,10 +206,10 @@ Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 
 #### Youtube
 
-- [38 - Coin Change - Definition](https://www.youtube.com/watch?v=emu-XjbEcYk)
-- [39 - Coin Change - Dynamic Programming approach 1](https://www.youtube.com/watch?v=kUEyQpf-9z4)
-- [40 - Coin Change - Dynamic Programming approach 2](https://www.youtube.com/watch?v=WvQ6ZCxap3I)
-- [41 - Coin Change - Final DP solution in Java](https://www.youtube.com/watch?v=KCssoWz1__4)
+- [38 - Coin Change - Definition](https://youtu.be/emu-XjbEcYk)
+- [39 - Coin Change - Dynamic Programming approach 1](https://youtu.be/kUEyQpf-9z4)
+- [40 - Coin Change - Dynamic Programming approach 2](https://youtu.be/WvQ6ZCxap3I)
+- [41 - Coin Change - Final DP solution in Java](https://youtu.be/KCssoWz1__4)
 
 #### Leetcode
 
@@ -234,9 +234,9 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amo
 
 #### Youtube
 
-- [42 - House Robber - Definition](https://www.youtube.com/watch?v=08v6hxP1kQc)
-- [43 - House Robber - Dynamic Programming approach](https://www.youtube.com/watch?v=kFOh7DZggpQ)
-- [44 - House Robber - Final DP solution in Java](https://www.youtube.com/watch?v=IsaWPoxGJf0)
+- [42 - House Robber - Definition](https://youtu.be/08v6hxP1kQc)
+- [43 - House Robber - Dynamic Programming approach](https://youtu.be/kFOh7DZggpQ)
+- [44 - House Robber - Final DP solution in Java](https://youtu.be/IsaWPoxGJf0)
 
 #### Leetcode
 
@@ -261,11 +261,11 @@ Explanation: [2,3] has the largest product 6.
 
 #### Youtube
 
-- [45 - Maximum Product Subarray - Definition](https://www.youtube.com/watch?v=QHeYOTzPwM8)
-- [46 - Maximum Product Subarray - Dynamic Programming approach 1](https://www.youtube.com/watch?v=Ix-WH61u77c)
-- [47 - Maximum Product Subarray - Dynamic Programming approach 2](https://www.youtube.com/watch?v=7VZYLYDWUVg)
-- [48 - Maximum Product Subarray - Dynamic Programming approach 3](https://www.youtube.com/watch?v=WmagZpQslbc)
-- [49 - Maximum Product Subarray - Final DP solution in Java](https://www.youtube.com/watch?v=1MzZ8lrzPyo)
+- [45 - Maximum Product Subarray - Definition](https://youtu.be/QHeYOTzPwM8)
+- [46 - Maximum Product Subarray - Dynamic Programming approach 1](https://youtu.be/Ix-WH61u77c)
+- [47 - Maximum Product Subarray - Dynamic Programming approach 2](https://youtu.be/7VZYLYDWUVg)
+- [48 - Maximum Product Subarray - Dynamic Programming approach 3](https://youtu.be/WmagZpQslbc)
+- [49 - Maximum Product Subarray - Final DP solution in Java](https://youtu.be/1MzZ8lrzPyo)
 
 #### Leetcode
 
@@ -287,12 +287,12 @@ Explanation: "aba" is also a valid answer.
 
 #### Youtube
 
-- [50 - Longest Palindromic Substring - Definition](https://www.youtube.com/watch?v=c2rFA-u-EHo)
-- [51 - Longest Palindromic Substring - Basic approach](https://www.youtube.com/watch?v=1PPh3Lg_3Lc)
-- [52 - Longest Palindromic Substring - Dynamic Programming approach 1](https://www.youtube.com/watch?v=6giVKVwhj3M)
-- [53 - Longest Palindromic Substring - Dynamic Programming approach 2](https://www.youtube.com/watch?v=IMo2YdNpBGk)
-- [54 - Longest Palindromic Substring - Final DP solution in Java](https://www.youtube.com/watch?v=MIVVbYP1-qs)
-- [55 - Longest Palindromic Substring - submission in leetcode](https://www.youtube.com/watch?v=pUofBwSe35g)
+- [50 - Longest Palindromic Substring - Definition](https://youtu.be/c2rFA-u-EHo)
+- [51 - Longest Palindromic Substring - Basic approach](https://youtu.be/1PPh3Lg_3Lc)
+- [52 - Longest Palindromic Substring - Dynamic Programming approach 1](https://youtu.be/6giVKVwhj3M)
+- [53 - Longest Palindromic Substring - Dynamic Programming approach 2](https://youtu.be/IMo2YdNpBGk)
+- [54 - Longest Palindromic Substring - Final DP solution in Java](https://youtu.be/MIVVbYP1-qs)
+- [55 - Longest Palindromic Substring - submission in leetcode](https://youtu.be/pUofBwSe35g)
 
 #### Leetcode
 
@@ -313,10 +313,10 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 #### Youtube
 
-- [56 - Partition Equal Subset Sum - Definition](https://www.youtube.com/watch?v=M0iqJa9T4GM)
-- [57 - Partition Equal Subset Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=_LUuZqRoabc)
-- [58 - Partition Equal Subset Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=vSvkbVy-Ls8)
-- [59 - Partition Equal Subset Sum - Final DP solution in Java](https://www.youtube.com/watch?v=DBYYKY5emkQ)
+- [56 - Partition Equal Subset Sum - Definition](https://youtu.be/M0iqJa9T4GM)
+- [57 - Partition Equal Subset Sum - Dynamic Programming approach 1](https://youtu.be/_LUuZqRoabc)
+- [58 - Partition Equal Subset Sum - Dynamic Programming approach 2](https://youtu.be/vSvkbVy-Ls8)
+- [59 - Partition Equal Subset Sum - Final DP solution in Java](https://youtu.be/DBYYKY5emkQ)
 
 #### Leetcode
 
@@ -343,10 +343,10 @@ Explanation:
 
 #### Youtube
 
-- [60 - Counting Bits - Definition](https://www.youtube.com/watch?v=tEBzFyZ3nNE)
-- [61 - Counting Bits - Dynamic Programming approach 1](https://www.youtube.com/watch?v=Fh6KdpFuaVg)
-- [62 - Counting Bits - Dynamic Programming approach 2](https://www.youtube.com/watch?v=kophZUh023I)
-- [63 - Counting Bits - Final DP solution in Java](https://www.youtube.com/watch?v=Zc8L-tFTGrs)
+- [60 - Counting Bits - Definition](https://youtu.be/tEBzFyZ3nNE)
+- [61 - Counting Bits - Dynamic Programming approach 1](https://youtu.be/Fh6KdpFuaVg)
+- [62 - Counting Bits - Dynamic Programming approach 2](https://youtu.be/kophZUh023I)
+- [63 - Counting Bits - Final DP solution in Java](https://youtu.be/Zc8L-tFTGrs)
 
 #### Leetcode
 
@@ -371,13 +371,13 @@ The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 
 #### Youtube
 
-- [64 - Matrix Chain Multiplication - Definition 1](https://www.youtube.com/watch?v=vLWuOoWNhTM)
-- [65 - Matrix Chain Multiplication - Definition 2](https://www.youtube.com/watch?v=TWftlqo-sq8)
-- [66 - Matrix Chain Multiplication - Dynamic Programming approach 1](https://www.youtube.com/watch?v=EJ9YX-DqPJ8)
-- [67 - Matrix Chain Multiplication - Dynamic Programming approach 2](https://www.youtube.com/watch?v=PTCW6MA3f3w)
-- [68 - Matrix Chain Multiplication - Dynamic Programming approach 3](https://www.youtube.com/watch?v=HIeXk1h1k88)
-- [69 - Matrix Chain Multiplication - Dynamic Programming approach 4](https://www.youtube.com/watch?v=fy7zpcWhS7E)
-- [70 - Matrix Chain Multiplication - Final DP solution in Java](https://www.youtube.com/watch?v=A-QQqE7trEQ)
+- [64 - Matrix Chain Multiplication - Definition 1](https://youtu.be/vLWuOoWNhTM)
+- [65 - Matrix Chain Multiplication - Definition 2](https://youtu.be/TWftlqo-sq8)
+- [66 - Matrix Chain Multiplication - Dynamic Programming approach 1](https://youtu.be/EJ9YX-DqPJ8)
+- [67 - Matrix Chain Multiplication - Dynamic Programming approach 2](https://youtu.be/PTCW6MA3f3w)
+- [68 - Matrix Chain Multiplication - Dynamic Programming approach 3](https://youtu.be/HIeXk1h1k88)
+- [69 - Matrix Chain Multiplication - Dynamic Programming approach 4](https://youtu.be/fy7zpcWhS7E)
+- [70 - Matrix Chain Multiplication - Final DP solution in Java](https://youtu.be/A-QQqE7trEQ)
 
 #### Coding Ninjas
 
@@ -411,9 +411,9 @@ Minimum cost: 2 + 5 + 3 = 10.
 
 #### Youtube
 
-- [71 - Paint House - Definition](https://www.youtube.com/watch?v=78UlFsOmIz0)
-- [72 - Paint House - Dynamic Programming approach](https://www.youtube.com/watch?v=di5tYZnmiaQ)
-- [73 - Paint House - Final DP solution in Java](https://www.youtube.com/watch?v=aai_kEAdrJM)
+- [71 - Paint House - Definition](https://youtu.be/78UlFsOmIz0)
+- [72 - Paint House - Dynamic Programming approach](https://youtu.be/di5tYZnmiaQ)
+- [73 - Paint House - Final DP solution in Java](https://youtu.be/aai_kEAdrJM)
 
 #### LintCode
 
@@ -433,9 +433,9 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 
 #### Youtube
 
-- [74 - Pascals Triangle - Definition](https://www.youtube.com/watch?v=EcFaoxuFlQE)
-- [75 - Pascals Triangle - Dynamic Programming approach](https://www.youtube.com/watch?v=NWJpEr3T7pI)
-- [76 - Pascals Triangle - Final DP solution in Java](https://www.youtube.com/watch?v=8z1uAYGlItY)
+- [74 - Pascals Triangle - Definition](https://youtu.be/EcFaoxuFlQE)
+- [75 - Pascals Triangle - Dynamic Programming approach](https://youtu.be/NWJpEr3T7pI)
+- [76 - Pascals Triangle - Final DP solution in Java](https://youtu.be/8z1uAYGlItY)
 
 #### Leetcode
 
@@ -478,10 +478,10 @@ Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
 
 #### Youtube
 
-- [77 - Decode Ways - Definition](https://www.youtube.com/watch?v=8zg3FNR886Y)
-- [78 - Decode Ways - Dynamic Programming approach 1](https://www.youtube.com/watch?v=pXVHRtkBUXo)
-- [79 - Decode Ways - Dynamic Programming approach 2](https://www.youtube.com/watch?v=EXNXx9Jh_O8)
-- [80 - Decode Ways - Final DP solution in Java](https://www.youtube.com/watch?v=5FzwVxoY51k)
+- [77 - Decode Ways - Definition](https://youtu.be/8zg3FNR886Y)
+- [78 - Decode Ways - Dynamic Programming approach 1](https://youtu.be/pXVHRtkBUXo)
+- [79 - Decode Ways - Dynamic Programming approach 2](https://youtu.be/EXNXx9Jh_O8)
+- [80 - Decode Ways - Final DP solution in Java](https://youtu.be/5FzwVxoY51k)
 
 #### Leetcode
 
@@ -514,9 +514,9 @@ Down -> Right -> Down
 
 #### Youtube
 
-- [81 - Unique Paths - Definition](https://www.youtube.com/watch?v=812tLxs3D7Y)
-- [82 - Unique Paths - Dynamic Programming approach](https://www.youtube.com/watch?v=fiIvyIdsoNQ)
-- [83 - Unique Paths - Final DP solution in Java](https://www.youtube.com/watch?v=yEuJDqmKzs8)
+- [81 - Unique Paths - Definition](https://youtu.be/812tLxs3D7Y)
+- [82 - Unique Paths - Dynamic Programming approach](https://youtu.be/fiIvyIdsoNQ)
+- [83 - Unique Paths - Final DP solution in Java](https://youtu.be/yEuJDqmKzs8)
 
 #### Leetcode
 
@@ -539,10 +539,10 @@ Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
 
 #### Youtube
 
-- [84 - Minimum Path Sum - Definition](https://www.youtube.com/watch?v=wVvKY3aWpgQ)
-- [85 - Minimum Path Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=6_cplJkibCc)
-- [86 - Minimum Path Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=MmyGuKLG-f0)
-- [87 - Minimum Path Sum - Final DP solution in Java](https://www.youtube.com/watch?v=_KJ82HfvEsw)
+- [84 - Minimum Path Sum - Definition](https://youtu.be/wVvKY3aWpgQ)
+- [85 - Minimum Path Sum - Dynamic Programming approach 1](https://youtu.be/6_cplJkibCc)
+- [86 - Minimum Path Sum - Dynamic Programming approach 2](https://youtu.be/MmyGuKLG-f0)
+- [87 - Minimum Path Sum - Final DP solution in Java](https://youtu.be/_KJ82HfvEsw)
 
 #### Leetcode
 
@@ -574,10 +574,10 @@ Explanation: All possible strings are: "ae", "ea", "ei", "ia", "ie", "io", "iu",
 
 #### Youtube
 
-- [88 - Count Vowels Permutation - Definition](https://www.youtube.com/watch?v=-5n2yUiEEOI)
-- [89 - Count Vowels Permutation - Dynamic Programming approach 1](https://www.youtube.com/watch?v=xfw9SS41rsU)
-- [90 - Count Vowels Permutation - Dynamic Programming approach 2](https://www.youtube.com/watch?v=QoQPuc-rhoU)
-- [91 - Count Vowels Permutation - Final DP solution in Java](https://www.youtube.com/watch?v=P8gKhxD8ZZQ)
+- [88 - Count Vowels Permutation - Definition](https://youtu.be/-5n2yUiEEOI)
+- [89 - Count Vowels Permutation - Dynamic Programming approach 1](https://youtu.be/xfw9SS41rsU)
+- [90 - Count Vowels Permutation - Dynamic Programming approach 2](https://youtu.be/QoQPuc-rhoU)
+- [91 - Count Vowels Permutation - Final DP solution in Java](https://youtu.be/P8gKhxD8ZZQ)
 
 #### Leetcode
 
@@ -613,10 +613,10 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 #### Youtube
 
-- [92 - Target Sum - Definition](https://www.youtube.com/watch?v=oqBYqmJH2dk)
-- [93 - Target Sum - Dynamic Programming approach 1](https://www.youtube.com/watch?v=IvSVRNC1bUM)
-- [94 - Target Sum - Dynamic Programming approach 2](https://www.youtube.com/watch?v=MfenII6ys6c)
-- [95 - Target Sum - Final DP solution in Java](https://www.youtube.com/watch?v=3CAFxRPfJ_c)
+- [92 - Target Sum - Definition](https://youtu.be/oqBYqmJH2dk)
+- [93 - Target Sum - Dynamic Programming approach 1](https://youtu.be/IvSVRNC1bUM)
+- [94 - Target Sum - Dynamic Programming approach 2](https://youtu.be/MfenII6ys6c)
+- [95 - Target Sum - Final DP solution in Java](https://youtu.be/3CAFxRPfJ_c)
 
 #### Leetcode
 
@@ -640,10 +640,10 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 #### Youtube
 
-- [96 - Jump Game - Definition](https://www.youtube.com/watch?v=x55Y-HBpwqA)
-- [97 - Jump Game - Dynamic Programming approach 1](https://www.youtube.com/watch?v=gsUjy-uRFqU)
-- [98 - Jump Game - Dynamic Programming approach 2](https://www.youtube.com/watch?v=UtHWdKjvpcU)
-- [99 - Jump Game - Final DP solution in Java](https://www.youtube.com/watch?v=ezAZFiGpMuE)
+- [96 - Jump Game - Definition](https://youtu.be/x55Y-HBpwqA)
+- [97 - Jump Game - Dynamic Programming approach 1](https://youtu.be/gsUjy-uRFqU)
+- [98 - Jump Game - Dynamic Programming approach 2](https://youtu.be/UtHWdKjvpcU)
+- [99 - Jump Game - Final DP solution in Java](https://youtu.be/ezAZFiGpMuE)
 
 #### Leetcode
 
@@ -675,10 +675,10 @@ the last index.
 
 #### Youtube
 
-- [100 - Jump Game II - Definition](https://www.youtube.com/watch?v=hNCldFgPQZI)
-- [101 - Jump Game II - Dynamic Programming approach 1](https://www.youtube.com/watch?v=tqgohXGKtaw)
-- [102 - Jump Game II - Dynamic Programming approach 2](https://www.youtube.com/watch?v=hbx69_QR860)
-- [103 - Jump Game II - Final DP solution in Java](https://www.youtube.com/watch?v=TJu3FrsRU6M)
+- [100 - Jump Game II - Definition](https://youtu.be/hNCldFgPQZI)
+- [101 - Jump Game II - Dynamic Programming approach 1](https://youtu.be/tqgohXGKtaw)
+- [102 - Jump Game II - Dynamic Programming approach 2](https://youtu.be/hbx69_QR860)
+- [103 - Jump Game II - Final DP solution in Java](https://youtu.be/TJu3FrsRU6M)
 
 #### Leetcode
 
@@ -706,10 +706,10 @@ Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2)
 
 #### Youtube
 
-- [104 - House Robber II - Definition](https://www.youtube.com/watch?v=HGm0s5wm3OU)
-- [105 - House Robber II - Dynamic Programming approach 1](https://www.youtube.com/watch?v=8bTKewlp8P0)
-- [106 - House Robber II - Dynamic Programming approach 2](https://www.youtube.com/watch?v=FmDZfyjvIXo)
-- [107 - House Robber II - Final DP solution in Java](https://www.youtube.com/watch?v=GUt_SUSAz0E)
+- [104 - House Robber II - Definition](https://youtu.be/HGm0s5wm3OU)
+- [105 - House Robber II - Dynamic Programming approach 1](https://youtu.be/8bTKewlp8P0)
+- [106 - House Robber II - Dynamic Programming approach 2](https://youtu.be/FmDZfyjvIXo)
+- [107 - House Robber II - Final DP solution in Java](https://youtu.be/GUt_SUSAz0E)
 
 #### Leetcode
 
@@ -717,6 +717,6 @@ Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2)
 
 ### Next Steps
 
-[Next Steps](https://www.youtube.com/watch?v=GLG-0SnL5rA)
+[Next Steps](https://youtu.be/GLG-0SnL5rA)
 
 
