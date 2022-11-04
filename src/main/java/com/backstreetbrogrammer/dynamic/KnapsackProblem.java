@@ -39,14 +39,18 @@ public class KnapsackProblem {
 
     // Time complexity = O(totalItems * capacity) ~ O(n^2)
     // Space complexity = O(totalItems * capacity) ~ O(n^2)
-    private static int knapSack(final int capacity, final int[] weights, final int[] values, final int totalItems) {
+    private static int knapSack(final int capacity,
+                                final int[] weights,
+                                final int[] values,
+                                final int totalItems) {
         final int[][] dp = new int[totalItems + 1][capacity + 1];
         for (int i = 1; i <= totalItems; i++) {
             for (int j = 1; j <= capacity; j++) {
                 if (weights[i - 1] <= j) {
                     // Maximum value that can be obtained from ‘n’ items is the max of the following two values:
                     //   - Maximum value obtained by n-1 items and W weight (excluding nth item).
-                    //   - Value of nth item plus maximum value obtained by n-1 items and W minus the weight of the nth item (including nth item).
+                    //   - Value of nth item plus maximum value obtained by n-1 items
+                    //      and W minus the weight of the nth item (including nth item).
                     dp[i][j] = Math.max(dp[i - 1][j], values[i - 1] + dp[i - 1][j - weights[i - 1]]);
                 } else {
                     dp[i][j] = dp[i - 1][j];
@@ -58,7 +62,10 @@ public class KnapsackProblem {
     }
 
     // space optimized - O(n)
-    private static int knapSackSpaceOptimized(final int capacity, final int[] weights, final int[] values, final int totalItems) {
+    private static int knapSackSpaceOptimized(final int capacity,
+                                              final int[] weights,
+                                              final int[] values,
+                                              final int totalItems) {
         final int[] dp = new int[capacity + 1];
         for (int i = 1; i < totalItems + 1; i++) {
             for (int j = capacity; j >= 0; j--) {
