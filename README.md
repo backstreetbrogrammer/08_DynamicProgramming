@@ -21,6 +21,8 @@ possible.
 
 ## Most Popular Problems
 
+---
+
 ### 1. Longest Common Subsequence
 
 Given two sequences, find the length of the longest subsequence present in both of them. A subsequence is a sequence
