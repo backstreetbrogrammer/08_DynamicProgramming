@@ -39,6 +39,8 @@ For example, “abc”, “abg”, “bdf”, “aeg”, ‘”acefg”, .. etc 
 
 [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 
+---
+
 ### 2. Longest Increasing Subsequence
 
 The Longest Increasing Subsequence (LIS) problem is to find the length of the longest subsequence of a given sequence
@@ -55,6 +57,8 @@ For example, the length of LIS for {10, 22, 9, 33, 21, 50, 41, 60, 80} is 6 and 
 #### Leetcode
 
 [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
+---
 
 ### 3. Shortest Common Supersequence
 
@@ -79,6 +83,8 @@ String "geeke" has both string "geek" and "eke" as subsequences.
 
 [1092. Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)
 
+---
+
 ### 4. Edit distance or Levenshtein distance
 
 Given two strings str1 and str2 and operations that can be performed on str1. Find minimum number of edits (operations)
@@ -99,6 +105,8 @@ insert t, insert a
 #### Leetcode
 
 [72. Edit Distance](https://leetcode.com/problems/edit-distance/)
+
+---
 
 ### 5. Climbing Stairs
 
@@ -122,6 +130,8 @@ Input: n = 2 Output: 2 Explanation: There are two ways to climb to the top.
 
 [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 
+---
+
 ### 6. Rod Cutting
 
 Given a rod of length n inches and an array of prices that includes prices of all pieces of size smaller than n.
@@ -144,6 +154,8 @@ price | 1 5 8 9 10 17 17 20
 
 [Rod cutting problem](https://www.codingninjas.com/codestudio/problems/rod-cutting-problem_800284)
 
+---
+
 ### 7. 0-1 Knapsack Problem
 
 Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the
@@ -165,6 +177,8 @@ You cannot break an item, either pick the complete item or don’t pick it (0-1 
 #### Hacker Earth
 
 [0/1 KNAPSACK PROBLEM](https://www.hackerearth.com/problem/algorithm/01-knapsack-problem-5a88b815/)
+
+---
 
 ### 8. Word Break Problem
 
@@ -191,6 +205,8 @@ The string can be segmented as "i like".
 
 [139. Word Break](https://leetcode.com/problems/word-break/)
 
+---
+
 ### 9. Coin change problem
 
 Given a value sum, if we want to make change for sum cents, and we have an infinite supply of each of coins[] = {
@@ -214,6 +230,8 @@ Explanation: there are four solutions: {1, 1, 1, 1}, {1, 1, 2}, {2, 2}, {1, 3}.
 #### Leetcode
 
 [322. Coin Change](https://leetcode.com/problems/coin-change/)
+
+---
 
 ### 10. House Robber
 
@@ -241,6 +259,8 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3). Total amo
 #### Leetcode
 
 [198. House Robber](https://leetcode.com/problems/house-robber/)
+
+---
 
 ### 11. Maximum Product Subarray
 
@@ -271,6 +291,8 @@ Explanation: [2,3] has the largest product 6.
 
 [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 
+---
+
 ### 12. Longest Palindromic Substring
 
 Given a string s, return the longest palindromic substring in s.
@@ -298,6 +320,8 @@ Explanation: "aba" is also a valid answer.
 
 [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 
+---
+
 ### 13. Partition Equal Subset Sum
 
 Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets
@@ -321,6 +345,8 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 #### Leetcode
 
 [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+---
 
 ### 14. Counting Bits
 
@@ -352,6 +378,8 @@ Explanation:
 
 [338. Counting Bits](https://leetcode.com/problems/counting-bits/)
 
+---
+
 ### 15. Matrix Chain Multiplication
 
 Given the dimension of a sequence of matrices in an array arr[], where the dimension of the ith matrix is (arr[i-1] *
@@ -382,6 +410,8 @@ The minimum is 20 x 30 x 10 + 40 x 20 x 10 + 40 x 10 x 30
 #### Coding Ninjas
 
 [Matrix Chain Multiplication](https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344)
+
+---
 
 ### 16. Paint House
 
@@ -419,6 +449,8 @@ Minimum cost: 2 + 5 + 3 = 10.
 
 [515 · Paint House](https://www.lintcode.com/problem/515/)
 
+---
+
 ### 17. Pascal's Triangle
 
 Given an integer numRows, return the first numRows of Pascal's triangle.
@@ -440,6 +472,8 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 #### Leetcode
 
 [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+
+---
 
 ### 18. Decode Ways
 
@@ -487,6 +521,8 @@ Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
 
 [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
 
+---
+
 ### 19. Unique Paths
 
 There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e., grid[0][0]). The robot
@@ -522,6 +558,8 @@ Down -> Right -> Down
 
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/)
 
+---
+
 ### 20. Minimum Path Sum
 
 Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum
@@ -547,6 +585,8 @@ Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
 #### Leetcode
 
 [64. Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)
+
+---
 
 ### 21. Count Vowels Permutation
 
@@ -582,6 +622,8 @@ Explanation: All possible strings are: "ae", "ea", "ei", "ia", "ie", "io", "iu",
 #### Leetcode
 
 [1220. Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)
+
+---
 
 ### 22. Target Sum
 
@@ -622,6 +664,8 @@ Explanation: There are 5 ways to assign symbols to make the sum of nums be targe
 
 [494. Target Sum](https://leetcode.com/problems/target-sum/)
 
+---
+
 ### 23. Jump Game
 
 You are given an integer array nums. You are initially positioned at the array's first index,
@@ -648,6 +692,8 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 #### Leetcode
 
 [55. Jump Game](https://leetcode.com/problems/jump-game/)
+
+---
 
 ### 24. Jump Game II
 
@@ -684,6 +730,8 @@ the last index.
 
 [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 
+---
+
 ### 25. House Robber II
 
 You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed.
@@ -715,8 +763,43 @@ Explanation: You cannot rob house 1 (money = 2) and then rob house 3 (money = 2)
 
 [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)
 
+---
+
 ### Next Steps
 
 [Next Steps](https://youtu.be/GLG-0SnL5rA)
 
+---
 
+## Dynamic Programming Reloaded
+
+### 26. Super Egg Drop
+
+You are given k identical eggs and you have access to a building with n floors labeled from 1 to n.
+
+You know that there exists a floor f where 0 <= f <= n such that any egg dropped at a floor higher than f will break,
+and any egg dropped at or below floor f will not break.
+
+Each move, you may take an unbroken egg and drop it from any floor x (where 1 <= x <= n). If the egg breaks, you can no
+longer use it. However, if the egg does not break, you may reuse it in future moves.
+
+Return the minimum number of moves that you need to determine with certainty what the value of f is.
+
+Example:
+
+Input: k = 1, n = 2
+
+Output: 2
+
+Explanation:
+Drop the egg from floor 1. If it breaks, we know that f = 0. Otherwise, drop the egg from floor 2. If it breaks, we know
+that f = 1. If it does not break, then we know f = 2. Hence, we need at minimum 2 moves to determine with certainty what
+the value of f is.
+
+#### Youtube
+
+#### Leetcode
+
+[https://leetcode.com/problems/super-egg-drop/](https://leetcode.com/problems/super-egg-drop/)
+
+---
