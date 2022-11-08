@@ -43,5 +43,4 @@ public class MaximumProductSubarray {
 
         return result;
     }
-
 }
