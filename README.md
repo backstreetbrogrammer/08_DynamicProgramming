@@ -10,6 +10,8 @@ possible.
 
 #### Youtube
 
+[Dynamic Programming Playlist](https://www.youtube.com/playlist?list=PLQDzPczdXrTilRgmNUQ632OrD-wfRLUR_)
+
 - [01 - Dynamic Programming - Introduction](https://youtu.be/Hnb6GDFBmQs)
 - [02 - Fibonacci Numbers - Recursive](https://youtu.be/AYMjH6sSbeo)
 - [03 - Fibonacci Numbers - Dynamic Programming Top Down Memoization](https://youtu.be/GVwkuS0PdTY)
