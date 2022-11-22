@@ -13,7 +13,6 @@ package com.backstreetbrogrammer.dynamic;
  * Explanation: "aba" is also a valid answer.
  */
 public class LongestPalindromicSubstring {
-
     public static void main(final String[] args) {
         System.out.println(longestPalindrome("babad"));
         System.out.println(longestPalindrome("cbbd"));
@@ -45,6 +44,4 @@ public class LongestPalindromicSubstring {
         }
         return R - L - 1;
     }
-
-
 }
