@@ -10,6 +10,8 @@ possible.
 
 #### Youtube
 
+![Dynamic Programming Playlist](Dynamic Programming Thumbnail.png)
+
 [Dynamic Programming Playlist](https://www.youtube.com/playlist?list=PLQDzPczdXrTilRgmNUQ632OrD-wfRLUR_)
 
 - [01 - Dynamic Programming - Introduction](https://youtu.be/Hnb6GDFBmQs)
