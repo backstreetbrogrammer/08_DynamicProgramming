@@ -10,7 +10,7 @@ possible.
 
 #### Youtube
 
-![Dynamic Programming Playlist](Dynamic Programming Thumbnail.png)
+![Dynamic Programming Playlist](DynamicProgrammingThumbnail.png)
 
 [Dynamic Programming Playlist](https://www.youtube.com/playlist?list=PLQDzPczdXrTilRgmNUQ632OrD-wfRLUR_)
 
